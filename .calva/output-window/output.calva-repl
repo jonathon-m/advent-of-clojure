@@ -1,0 +1,358 @@
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/jonm/advent-of-clojure ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:34859 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉advent-of-clojure.core꞉> 
+clj꞉advent-of-clojure.core꞉> 
+; Jack-in done.
+clj꞉advent-of-clojure.core꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; ./day1/test.txt (No such file or directory)
+clj꞉advent-of-clojure.day1.solution꞉> 
+1abc2
+pqr3stu8vwx
+a1b2c3d4e5f
+treb7uchet
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+1abc2
+pqr3stu8vwx
+a1b2c3d4e5f
+treb7uchet
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+[1abc2 pqr3stu8vwx a1b2c3d4e5f treb7uchet]
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/solve (form-init16158377429025327774.clj:8).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/solve (form-init16158377429025327774.clj:8).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+([ abc] [pqr stu vwx] [a b c d e f] [treb uchet])
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+([1   2] [   3   8] [ 1 2 3 4 5] [    7])
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+([1   2] [   3   8] [ 1 2 3 4 5] [    7])
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+()
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+([1   2] [   3   8] [ 1 2 3 4 5] [    7])
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+(#function[clojure.core/filter/fn--5874/fn--5875] #function[clojure.core/filter/fn--5874/fn--5875] #function[clojure.core/filter/fn--5874/fn--5875] #function[clojure.core/filter/fn--5874/fn--5875])
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+(; Execution error (ClassCastException) at advent-of-clojure.day1.solution/get-numbers$fn (form-init16158377429025327774.clj:6).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+(12 38 12345 7)
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+(12 38 12345 7)
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+(((first n) (last n)) ((first n) (last n)) ((first n) (last n)) ((first n) (last n)))
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Error printing return value (ClassCastException) at advent-of-clojure.day1.solution/solve$fn (form-init16158377429025327774.clj:18).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+nil
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+("1" "3" "1" "7")
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+(["1" "2"] ["3" "8"] ["1" "5"] ["7" "7"])
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+(12 38 15 77)
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+(12 38 15 77)
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+(12 38 15 77)
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+(12 38 15 77)
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+(12 38 15 77)
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+((23) (67 2) (8) (236) (5 85) (1) (2 6) (5) (35) (6 35) (2) (6 8) (1 4) (5 9) (67) (5 3 9 8) (898) (4 37) (67) (9 1 3) (7) (6 882) (5) (8 7) (8 9) (3) (8) (4 2) (7 1 1) (1) (1 2) (14 8 62 5) (3) (17 3 9) (5) (578) (3) (3 26) (55 2 9) (7) (4) (7) (8 6) (2) (8 8) (6) (53) (2) (2) (1 6) (73) (5) (8 59) (26 877) (7) (9 5) (7) (5 5) (1) (699 3 2) (2 5) (8 39) (7) (943) (8 3 33) (8 128) (5 3) (9) (49) (1 1) (9 485) (9) (3 21 8) (3 8) (1 3 9) (12 6) (2 8) (3 7) (6) (9) (8) (7 4) (4 7) (579) (41) (41 4 87) (19) (86 1) (4 1 3) (73 5) (73) (9) (9 4) (99) (1) (7 68 36 5) (45 6) (4) (7 7) (7) (3 7) (5) (5 9) (1) (9 3) (76) (3 6) (62) (7) (5) (1 3) (8 1) (2 8) (3 8) (941) (12) (6) (3776) (4 1) (2) (3 5) (5) (9 58 9) (79) (326) (1 1) (1) (615) (3 7 4) (999) (6 34) (99) (2) (8 9 2) (8 7 7) (21 8) (8931) (9) (8) (5 6) (4 5) (1) (71) (29 9 75) (299 8) (34 8) (15) (8) (4 8) (2 5) (56) (1128) (7 3 941) (6) (7) (22) (5 65) (8) (9) (2 7) (32 3) (5 8) (44 3 5) (8) (3 5) (3) (41) (5893 1) (6) (1) (17) (78 6) (7) (22) (3 3) (1) (5) (64) (2) (77 9) (14) (81 4) (6) (8 8) (39) (5) (1 6) (6525) (79 9) (6) (483) (4 8) (4679 74) (43 87) (77 43) (1) (5 4) (4) (1 6) (32) (875 2) (46) (17) (1 9) (2 7) (5) (1 1 8) (2) (24 6) (5 2) (3) (726 3) (1) (1 22) (88 4) (5) (56943) (7 9) (56 75) (36 89) (56 8 5) (94 3) (6 6) (5) (528 72) (2 1) (98 16) (94) (8 4 66) (5 37) (9 2) (6) (8) (87) (3) (8 766) (6) (3) (9) (45 95) (4 9) (66 8) (6) (1 4) (52) (6) (5 3) (9 33 6) (542) (71) (2 9 5) (337) (7 9) (94) (9 4) (8) (74 1) (2) (6 6) (7) (969) (7) (41 1 3) (2) (8) (953 53) (359) (33 6) (7) (3 65) (4 7) (73) (1 22) (6 8) (3 5) (86) (6 3) (5) (17 6 3) (4 5) (6 36) (8) (46) (97) (6 6) (6 7) (12) (2) (9 8) (5) (5 11) (8 8 3) (827 6) (93) (7 81) (8) (8) (1) (3 57) (7 7) (5) (2273) (5 4) (4 6 1) (4) (8 8) (11) (9 9) (18 24) (3 9) (647 6 4) (1) (3 2) (7) (8) (6 7) (4) (5 28) (2 2 4) (9) (9 8) (83 4 1) (5) (1 6) (7) (7 66) (1 9) (6 6) (2 5 21) (31) (4) (8) (7) (743 4 9) (3) (3) (63) (9 3 3 1) (5) (5) (5) (22) (7) (2) (75 93) (4 6) (21 39) (9 8) (16 5 31) (5 6) (31) (7) (6) (9 4) (28 1) (4 5) (85) (93 2) (61) (23) (9) (9 286) (3) (9) (2) (5 4) (7) (8) (7 5) (4) (6 2) (3 2) (4 3) (4 4) (6) (8) (3 3) (1 2 5) (5 21) (6) (4) (23) (26 1 1) (7) (355) (7347) (4 6) (72) (2 8) (6 6) (44) (7 8 9 1) (7 8) (6) (818) (4) (4 47 71) (6 762 654) (3 2) (2 2) (9) (4 2) (91 2) (5 6) (78) (24) (7) (457 6) (2 59) (86) (2 58) (23 2) (5 2) (5) (9) (7) (6) (37 37) (137 8) (6) (5) (1) (1) (4) (9) (57 1) (9) (5 5 2) (9) (9 9 1) (9) (5) (8 2) (5 54) (4386) (71) (7) (5 61) (6) (652) (32) (7) (8) (4) (3 6 4) (21) (4 58) (4) (56 73) (6 88 957) (2) (1 8) (4 9) (3) (42 84) (72) (9) (795 7) (4779) (1 6 4) (1 214) (4 7) (4) (47) (4 22) (4 8) (54 26) (6 3) (1 1 5 94) (86) (2 11) (63) (925) (8 12) (541 97) (5) (4 1) (8 2 98) (4) (46) (98) (944) (92 4) (7 8 52 8) (1) (4 554) (2 4) (883) (7 2) (5 6 5) (54) (98 31) (429 7) (1 26) (97) (6) (2) (687) (6 4) (9 3) (2 9 1) (6 3) (6) (1 8) (2 3) (3 7) (2 4) (9) (4 923) (1) (3) (2 4) (66) (87) (867 6857) (9 6) (96) (5 3236) (5) (2847) (4 9 1) (4) (339) (9) (73) (5) (75 1) (5) (7 4) (9 24) (36) (5) (4) (273) (44 9 4 7) (3) (4) (1) (2) (6 5) (6) (7) (6) (4 92) (18 977) (3) (5 46) (7 4 7) (1 9) (4) (89) (2 9) (6 3) (271) (4) (1) (3 67) (4) (53 6) (891) (96) (1) (8 9) (5 7) (55) (7 9) (45 6) (49) (76 9) (2) (2 7) (12) (6) (3 4) (365 7) (1) (7) (761 4) (4) (45 2) (5 9 75) (3 5) (4) (3 91) (99 2) (3 3) (68) (4 8 8 7) (7 9) (4 92) (93 4) (9) (2 2) (3 79) (5) (71) (3 1) (3) (2) (5) (7 7) (1) (2) (542 5 5) (8) (5 6 9) (1 5) (1 6) (2 4 9) (7 8 2) (1) (2 3) (5 86) (7 3) (3 3 9) (9) (88 99 9) (9) (9119) (3 22) (5) (3 3 6) (6) (779) (33 29) (9 69) (2) (74) (19) (6) (1) (5) (2 9) (4 6 4) (1 4) (6) (7) (7) (3 434 1) (5 9 4) (85 348) (8) (4 9) (8 9) (5 7 61) (8 9) (5 75) (3) (12 1) (6) (2) (6) (2 4) (2) (9 4) (82) (3) (8 237) (6 5) (86 8) (8) (57) (6) (9 9) (3 13 2) (38 7) (4) (5 2) (1) (6 6 71) (11 2) (8) (6) (2 9 85) (7 9) (8) (8 25) (2 9) (7) (2) (5 4 9) (5 6) (19 7 7) (495 4) (6 749) (18 4) (65) (833) (4) (2) (6 2) (19 1) (2) (1 8) (4) (3 3) (3) (7) (3) (3 4) (73 5) (51) (296) (6) (1156) (2) (419 6) (6) (9) (18 54) (9) (2 3) (3) (7 7 57) (5) (1) (3) (8 2 7) (7 1) (1 27) (6 6) (7) (7) (2 8) (8 8) (9 5 9) (5 6) (46) (3 359) (8 67) (17) (19) (8 5 7) (7 2) (8 5) (6426) (8) (2 56) (72 29) (9) (21) (1 6) (56 3) (1) (6) (1 8) (38) (5) (5 3) (7 3) (8 9) (9) (7 8) (9) (9 1) (7) (3 3 48) (7) (9) (2) (9) (1) (6 2) (29) (8 6 5) (3 18 2) (43 3 1) (5) (2 3) (6) (5 536 5) (7 5) (857) (31) (6) (1) (6) (3 2) (9) (4 93) (8) (2 7) (5 7 7) (239 5) (8 89) (6) (8 3) (145) (1 64) (2 5 8) (1) (7 5) (7) (4) (8 99) (5 9 9) (5) (5 3 5) (38 8 9) (11 4 6 3) (8) (896 3) (2 9) (43 31) (4 7) (92 6) (12) (28) (3 62) (79) (62) (4) (8 9 2 8) (7 4) (9 7) (32) (7 6) (56) (9) (13 9) (4) (4846 3) (2 2) (33 1 5) (6 7 468) (9 7) (7 7) (7) (7) (3 27 7) (39 2) (2 8) (1) (6551) (9 18) (6 9) (51 5) (7) (4 1 7 4) (9273 24) (2) (46) (786 7) (6 5 8) (42) (23) (6) (1) (9) (8) (84) (93 7) (7 4 39) (1) (73 3) (7 6) (8 5 5) (8) (6 2) (6 3) (9 691 57) (711) (9 3) (6 45) (1) (9) (7) (1) (79) (5 5 9) (4 1) (6) (6 8 22) (6) (4 23) (2 2 4) (3 2) (61 92) (2) (89 1) (9) (1) (6) (5) (38) (1) (9 6 56) (45) (17 16) (5 3) (42 7) (89 34) (4) (22 9) (296) (4 36) (3) (2) (2) (2) (4) (68) (6 2) (6) (1 5 229) (4 85 8) (4 41 3) (8) (8 6 9 25) (7) (5 1) (6 68) (2) (3 9) (8 8) (79 6) (1 1 3) (2 5) (881) (2 462 3) (9) (8 7) (345 143) (7 7) (4 4 8) (2) (1) (9) (4) (1 5 1) (68 2 9) (9 6) (3 3) (1 4) (8) (4 1 1) (9) (26 7) (633 32) (58 3 7) (5 57) (75) (12 6 3) (1) (7 3) (269) (1 2 6) (5 6 2) (8) (47) (5 1) (9 5) (8) (5) (1) (7) (1 8) (2 1) (1) (2) (84) (5) (7 78 7) (1 7) (1) (2) (4) (3 4 4) (9 4) (65 8) (6 2) (9 7) (9) (9) (3) (7) (11) (17) (1 7) (6 5) (4 963) (6) (495) (4) (7 6 7) (2) (7) (5 7) (3 1) (94 8329) (8) (5 2 83) (9) (15 7) (3) (4) (9514 62) (63 6) (6 181) (55))
+6382208957
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Syntax error compiling at (solution.clj:13:3).
+; Unable to resolve symbol: extract-numbers-list in this context
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+(([1] [] [] [2]) ([] [] [] [3] [] [] [8]) ([] [1] [2] [3] [4] [5]) ([] [] [] [] [7]))
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/solve (form-init16158377429025327774.clj:22).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+(([1] [] [] [2]) ([] [] [] [3] [] [] [8]) ([] [1] [2] [3] [4] [5]) ([] [] [] [] [7]))
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/solve (form-init16158377429025327774.clj:22).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#function[advent-of-clojure.day1.solution/get-numbers]
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+(([1] [] [] [2]) ([] [] [] [3] [] [] [8]) ([] [1] [2] [3] [4] [5]) ([] [] [] [] [7]))
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/solve (form-init16158377429025327774.clj:21).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+32
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+32
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+32
+clj꞉advent-of-clojure.day1.solution꞉> 
+#function[advent-of-clojure.day1.solution/extract-numbers-list]
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-numbers
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+32
+clj꞉advent-of-clojure.day1.solution꞉> 
+#function[advent-of-clojure.day1.solution/extract-numbers-list]
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1   2) (   3   8) ( 1 2 3 4 5) (    7))
+32
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+(( ) (    ) () (   ))
+; Execution error at advent-of-clojure.day1.solution/solve$fn (form-init16158377429025327774.clj:22).
+; EOF while reading
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+((2 3) (6 7 2) (8) (2 3 6) (5 8 5) (1) (2 6) (5) (3 5) (6 3 5) (2) (6 8) (1 4) (5 9) (6 7) (5 3 9 8) (8 9 8) (4 3 7) (6 7) (9 1 3) (7) (6 8 8 2) (5) (8 7) (8 9) (3) (8) (4 2) (7 1 1) (1) (1 2) (1 4 8 6 2 5) (3) (1 7 3 9) (5) (5 7 8) (3) (3 2 6) (5 5 2 9) (7) (4) (7) (8 6) (2) (8 8) (6) (5 3) (2) (2) (1 6) (7 3) (5) (8 5 9) (2 6 8 7 7) (7) (9 5) (7) (5 5) (1) (6 9 9 3 2) (2 5) (8 3 9) (7) (9 4 3) (8 3 3 3) (8 1 2 8) (5 3) (9) (4 9) (1 1) (9 4 8 5) (9) (3 2 1 8) (3 8) (1 3 9) (1 2 6) (2 8) (3 7) (6) (9) (8) (7 4) (4 7) (5 7 9) (4 1) (4 1 4 8 7) (1 9) (8 6 1) (4 1 3) (7 3 5) (7 3) (9) (9 4) (9 9) (1) (7 6 8 3 6 5) (4 5 6) (4) (7 7) (7) (3 7) (5) (5 9) (1) (9 3) (7 6) (3 6) (6 2) (7) (5) (1 3) (8 1) (2 8) (3 8) (9 4 1) (1 2) (6) (3 7 7 6) (4 1) (2) (3 5) (5) (9 5 8 9) (7 9) (3 2 6) (1 1) (1) (6 1 5) (3 7 4) (9 9 9) (6 3 4) (9 9) (2) (8 9 2) (8 7 7) (2 1 8) (8 9 3 1) (9) (8) (5 6) (4 5) (1) (7 1) (2 9 9 7 5) (2 9 9 8) (3 4 8) (1 5) (8) (4 8) (2 5) (5 6) (1 1 2 8) (7 3 9 4 1) (6) (7) (2 2) (5 6 5) (8) (9) (2 7) (3 2 3) (5 8) (4 4 3 5) (8) (3 5) (3) (4 1) (5 8 9 3 1) (6) (1) (1 7) (7 8 6) (7) (2 2) (3 3) (1) (5) (6 4) (2) (7 7 9) (1 4) (8 1 4) (6) (8 8) (3 9) (5) (1 6) (6 5 2 5) (7 9 9) (6) (4 8 3) (4 8) (4 6 7 9 7 4) (4 3 8 7) (7 7 4 3) (1) (5 4) (4) (1 6) (3 2) (8 7 5 2) (4 6) (1 7) (1 9) (2 7) (5) (1 1 8) (2) (2 4 6) (5 2) (3) (7 2 6 3) (1) (1 2 2) (8 8 4) (5) (5 6 9 4 3) (7 9) (5 6 7 5) (3 6 8 9) (5 6 8 5) (9 4 3) (6 6) (5) (5 2 8 7 2) (2 1) (9 8 1 6) (9 4) (8 4 6 6) (5 3 7) (9 2) (6) (8) (8 7) (3) (8 7 6 6) (6) (3) (9) (4 5 9 5) (4 9) (6 6 8) (6) (1 4) (5 2) (6) (5 3) (9 3 3 6) (5 4 2) (7 1) (2 9 5) (3 3 7) (7 9) (9 4) (9 4) (8) (7 4 1) (2) (6 6) (7) (9 6 9) (7) (4 1 1 3) (2) (8) (9 5 3 5 3) (3 5 9) (3 3 6) (7) (3 6 5) (4 7) (7 3) (1 2 2) (6 8) (3 5) (8 6) (6 3) (5) (1 7 6 3) (4 5) (6 3 6) (8) (4 6) (9 7) (6 6) (6 7) (1 2) (2) (9 8) (5) (5 1 1) (8 8 3) (8 2 7 6) (9 3) (7 8 1) (8) (8) (1) (3 5 7) (7 7) (5) (2 2 7 3) (5 4) (4 6 1) (4) (8 8) (1 1) (9 9) (1 8 2 4) (3 9) (6 4 7 6 4) (1) (3 2) (7) (8) (6 7) (4) (5 2 8) (2 2 4) (9) (9 8) (8 3 4 1) (5) (1 6) (7) (7 6 6) (1 9) (6 6) (2 5 2 1) (3 1) (4) (8) (7) (7 4 3 4 9) (3) (3) (6 3) (9 3 3 1) (5) (5) (5) (2 2) (7) (2) (7 5 9 3) (4 6) (2 1 3 9) (9 8) (1 6 5 3 1) (5 6) (3 1) (7) (6) (9 4) (2 8 1) (4 5) (8 5) (9 3 2) (6 1) (2 3) (9) (9 2 8 6) (3) (9) (2) (5 4) (7) (8) (7 5) (4) (6 2) (3 2) (4 3) (4 4) (6) (8) (3 3) (1 2 5) (5 2 1) (6) (4) (2 3) (2 6 1 1) (7) (3 5 5) (7 3 4 7) (4 6) (7 2) (2 8) (6 6) (4 4) (7 8 9 1) (7 8) (6) (8 1 8) (4) (4 4 7 7 1) (6 7 6 2 6 5 4) (3 2) (2 2) (9) (4 2) (9 1 2) (5 6) (7 8) (2 4) (7) (4 5 7 6) (2 5 9) (8 6) (2 5 8) (2 3 2) (5 2) (5) (9) (7) (6) (3 7 3 7) (1 3 7 8) (6) (5) (1) (1) (4) (9) (5 7 1) (9) (5 5 2) (9) (9 9 1) (9) (5) (8 2) (5 5 4) (4 3 8 6) (7 1) (7) (5 6 1) (6) (6 5 2) (3 2) (7) (8) (4) (3 6 4) (2 1) (4 5 8) (4) (5 6 7 3) (6 8 8 9 5 7) (2) (1 8) (4 9) (3) (4 2 8 4) (7 2) (9) (7 9 5 7) (4 7 7 9) (1 6 4) (1 2 1 4) (4 7) (4) (4 7) (4 2 2) (4 8) (5 4 2 6) (6 3) (1 1 5 9 4) (8 6) (2 1 1) (6 3) (9 2 5) (8 1 2) (5 4 1 9 7) (5) (4 1) (8 2 9 8) (4) (4 6) (9 8) (9 4 4) (9 2 4) (7 8 5 2 8) (1) (4 5 5 4) (2 4) (8 8 3) (7 2) (5 6 5) (5 4) (9 8 3 1) (4 2 9 7) (1 2 6) (9 7) (6) (2) (6 8 7) (6 4) (9 3) (2 9 1) (6 3) (6) (1 8) (2 3) (3 7) (2 4) (9) (4 9 2 3) (1) (3) (2 4) (6 6) (8 7) (8 6 7 6 8 5 7) (9 6) (9 6) (5 3 2 3 6) (5) (2 8 4 7) (4 9 1) (4) (3 3 9) (9) (7 3) (5) (7 5 1) (5) (7 4) (9 2 4) (3 6) (5) (4) (2 7 3) (4 4 9 4 7) (3) (4) (1) (2) (6 5) (6) (7) (6) (4 9 2) (1 8 9 7 7) (3) (5 4 6) (7 4 7) (1 9) (4) (8 9) (2 9) (6 3) (2 7 1) (4) (1) (3 6 7) (4) (5 3 6) (8 9 1) (9 6) (1) (8 9) (5 7) (5 5) (7 9) (4 5 6) (4 9) (7 6 9) (2) (2 7) (1 2) (6) (3 4) (3 6 5 7) (1) (7) (7 6 1 4) (4) (4 5 2) (5 9 7 5) (3 5) (4) (3 9 1) (9 9 2) (3 3) (6 8) (4 8 8 7) (7 9) (4 9 2) (9 3 4) (9) (2 2) (3 7 9) (5) (7 1) (3 1) (3) (2) (5) (7 7) (1) (2) (5 4 2 5 5) (8) (5 6 9) (1 5) (1 6) (2 4 9) (7 8 2) (1) (2 3) (5 8 6) (7 3) (3 3 9) (9) (8 8 9 9 9) (9) (9 1 1 9) (3 2 2) (5) (3 3 6) (6) (7 7 9) (3 3 2 9) (9 6 9) (2) (7 4) (1 9) (6) (1) (5) (2 9) (4 6 4) (1 4) (6) (7) (7) (3 4 3 4 1) (5 9 4) (8 5 3 4 8) (8) (4 9) (8 9) (5 7 6 1) (8 9) (5 7 5) (3) (1 2 1) (6) (2) (6) (2 4) (2) (9 4) (8 2) (3) (8 2 3 7) (6 5) (8 6 8) (8) (5 7) (6) (9 9) (3 1 3 2) (3 8 7) (4) (5 2) (1) (6 6 7 1) (1 1 2) (8) (6) (2 9 8 5) (7 9) (8) (8 2 5) (2 9) (7) (2) (5 4 9) (5 6) (1 9 7 7) (4 9 5 4) (6 7 4 9) (1 8 4) (6 5) (8 3 3) (4) (2) (6 2) (1 9 1) (2) (1 8) (4) (3 3) (3) (7) (3) (3 4) (7 3 5) (5 1) (2 9 6) (6) (1 1 5 6) (2) (4 1 9 6) (6) (9) (1 8 5 4) (9) (2 3) (3) (7 7 5 7) (5) (1) (3) (8 2 7) (7 1) (1 2 7) (6 6) (7) (7) (2 8) (8 8) (9 5 9) (5 6) (4 6) (3 3 5 9) (8 6 7) (1 7) (1 9) (8 5 7) (7 2) (8 5) (6 4 2 6) (8) (2 5 6) (7 2 2 9) (9) (2 1) (1 6) (5 6 3) (1) (6) (1 8) (3 8) (5) (5 3) (7 3) (8 9) (9) (7 8) (9) (9 1) (7) (3 3 4 8) (7) (9) (2) (9) (1) (6 2) (2 9) (8 6 5) (3 1 8 2) (4 3 3 1) (5) (2 3) (6) (5 5 3 6 5) (7 5) (8 5 7) (3 1) (6) (1) (6) (3 2) (9) (4 9 3) (8) (2 7) (5 7 7) (2 3 9 5) (8 8 9) (6) (8 3) (1 4 5) (1 6 4) (2 5 8) (1) (7 5) (7) (4) (8 9 9) (5 9 9) (5) (5 3 5) (3 8 8 9) (1 1 4 6 3) (8) (8 9 6 3) (2 9) (4 3 3 1) (4 7) (9 2 6) (1 2) (2 8) (3 6 2) (7 9) (6 2) (4) (8 9 2 8) (7 4) (9 7) (3 2) (7 6) (5 6) (9) (1 3 9) (4) (4 8 4 6 3) (2 2) (3 3 1 5) (6 7 4 6 8) (9 7) (7 7) (7) (7) (3 2 7 7) (3 9 2) (2 8) (1) (6 5 5 1) (9 1 8) (6 9) (5 1 5) (7) (4 1 7 4) (9 2 7 3 2 4) (2) (4 6) (7 8 6 7) (6 5 8) (4 2) (2 3) (6) (1) (9) (8) (8 4) (9 3 7) (7 4 3 9) (1) (7 3 3) (7 6) (8 5 5) (8) (6 2) (6 3) (9 6 9 1 5 7) (7 1 1) (9 3) (6 4 5) (1) (9) (7) (1) (7 9) (5 5 9) (4 1) (6) (6 8 2 2) (6) (4 2 3) (2 2 4) (3 2) (6 1 9 2) (2) (8 9 1) (9) (1) (6) (5) (3 8) (1) (9 6 5 6) (4 5) (1 7 1 6) (5 3) (4 2 7) (8 9 3 4) (4) (2 2 9) (2 9 6) (4 3 6) (3) (2) (2) (2) (4) (6 8) (6 2) (6) (1 5 2 2 9) (4 8 5 8) (4 4 1 3) (8) (8 6 9 2 5) (7) (5 1) (6 6 8) (2) (3 9) (8 8) (7 9 6) (1 1 3) (2 5) (8 8 1) (2 4 6 2 3) (9) (8 7) (3 4 5 1 4 3) (7 7) (4 4 8) (2) (1) (9) (4) (1 5 1) (6 8 2 9) (9 6) (3 3) (1 4) (8) (4 1 1) (9) (2 6 7) (6 3 3 3 2) (5 8 3 7) (5 5 7) (7 5) (1 2 6 3) (1) (7 3) (2 6 9) (1 2 6) (5 6 2) (8) (4 7) (5 1) (9 5) (8) (5) (1) (7) (1 8) (2 1) (1) (2) (8 4) (5) (7 7 8 7) (1 7) (1) (2) (4) (3 4 4) (9 4) (6 5 8) (6 2) (9 7) (9) (9) (3) (7) (1 1) (1 7) (1 7) (6 5) (4 9 6 3) (6) (4 9 5) (4) (7 6 7) (2) (7) (5 7) (3 1) (9 4 8 3 2 9) (8) (5 2 8 3) (9) (1 5 7) (3) (4) (9 5 1 4 6 2) (6 3 6) (6 1 8 1) (5 5))
+54667
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/get-input
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve1
+clj꞉advent-of-clojure.day1.solution꞉> 
+((1 2) (3 8) (1 2 3 4 5) (7))
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+((2 3) (6 7 2) (8) (2 3 6) (5 8 5) (1) (2 6) (5) (3 5) (6 3 5) (2) (6 8) (1 4) (5 9) (6 7) (5 3 9 8) (8 9 8) (4 3 7) (6 7) (9 1 3) (7) (6 8 8 2) (5) (8 7) (8 9) (3) (8) (4 2) (7 1 1) (1) (1 2) (1 4 8 6 2 5) (3) (1 7 3 9) (5) (5 7 8) (3) (3 2 6) (5 5 2 9) (7) (4) (7) (8 6) (2) (8 8) (6) (5 3) (2) (2) (1 6) (7 3) (5) (8 5 9) (2 6 8 7 7) (7) (9 5) (7) (5 5) (1) (6 9 9 3 2) (2 5) (8 3 9) (7) (9 4 3) (8 3 3 3) (8 1 2 8) (5 3) (9) (4 9) (1 1) (9 4 8 5) (9) (3 2 1 8) (3 8) (1 3 9) (1 2 6) (2 8) (3 7) (6) (9) (8) (7 4) (4 7) (5 7 9) (4 1) (4 1 4 8 7) (1 9) (8 6 1) (4 1 3) (7 3 5) (7 3) (9) (9 4) (9 9) (1) (7 6 8 3 6 5) (4 5 6) (4) (7 7) (7) (3 7) (5) (5 9) (1) (9 3) (7 6) (3 6) (6 2) (7) (5) (1 3) (8 1) (2 8) (3 8) (9 4 1) (1 2) (6) (3 7 7 6) (4 1) (2) (3 5) (5) (9 5 8 9) (7 9) (3 2 6) (1 1) (1) (6 1 5) (3 7 4) (9 9 9) (6 3 4) (9 9) (2) (8 9 2) (8 7 7) (2 1 8) (8 9 3 1) (9) (8) (5 6) (4 5) (1) (7 1) (2 9 9 7 5) (2 9 9 8) (3 4 8) (1 5) (8) (4 8) (2 5) (5 6) (1 1 2 8) (7 3 9 4 1) (6) (7) (2 2) (5 6 5) (8) (9) (2 7) (3 2 3) (5 8) (4 4 3 5) (8) (3 5) (3) (4 1) (5 8 9 3 1) (6) (1) (1 7) (7 8 6) (7) (2 2) (3 3) (1) (5) (6 4) (2) (7 7 9) (1 4) (8 1 4) (6) (8 8) (3 9) (5) (1 6) (6 5 2 5) (7 9 9) (6) (4 8 3) (4 8) (4 6 7 9 7 4) (4 3 8 7) (7 7 4 3) (1) (5 4) (4) (1 6) (3 2) (8 7 5 2) (4 6) (1 7) (1 9) (2 7) (5) (1 1 8) (2) (2 4 6) (5 2) (3) (7 2 6 3) (1) (1 2 2) (8 8 4) (5) (5 6 9 4 3) (7 9) (5 6 7 5) (3 6 8 9) (5 6 8 5) (9 4 3) (6 6) (5) (5 2 8 7 2) (2 1) (9 8 1 6) (9 4) (8 4 6 6) (5 3 7) (9 2) (6) (8) (8 7) (3) (8 7 6 6) (6) (3) (9) (4 5 9 5) (4 9) (6 6 8) (6) (1 4) (5 2) (6) (5 3) (9 3 3 6) (5 4 2) (7 1) (2 9 5) (3 3 7) (7 9) (9 4) (9 4) (8) (7 4 1) (2) (6 6) (7) (9 6 9) (7) (4 1 1 3) (2) (8) (9 5 3 5 3) (3 5 9) (3 3 6) (7) (3 6 5) (4 7) (7 3) (1 2 2) (6 8) (3 5) (8 6) (6 3) (5) (1 7 6 3) (4 5) (6 3 6) (8) (4 6) (9 7) (6 6) (6 7) (1 2) (2) (9 8) (5) (5 1 1) (8 8 3) (8 2 7 6) (9 3) (7 8 1) (8) (8) (1) (3 5 7) (7 7) (5) (2 2 7 3) (5 4) (4 6 1) (4) (8 8) (1 1) (9 9) (1 8 2 4) (3 9) (6 4 7 6 4) (1) (3 2) (7) (8) (6 7) (4) (5 2 8) (2 2 4) (9) (9 8) (8 3 4 1) (5) (1 6) (7) (7 6 6) (1 9) (6 6) (2 5 2 1) (3 1) (4) (8) (7) (7 4 3 4 9) (3) (3) (6 3) (9 3 3 1) (5) (5) (5) (2 2) (7) (2) (7 5 9 3) (4 6) (2 1 3 9) (9 8) (1 6 5 3 1) (5 6) (3 1) (7) (6) (9 4) (2 8 1) (4 5) (8 5) (9 3 2) (6 1) (2 3) (9) (9 2 8 6) (3) (9) (2) (5 4) (7) (8) (7 5) (4) (6 2) (3 2) (4 3) (4 4) (6) (8) (3 3) (1 2 5) (5 2 1) (6) (4) (2 3) (2 6 1 1) (7) (3 5 5) (7 3 4 7) (4 6) (7 2) (2 8) (6 6) (4 4) (7 8 9 1) (7 8) (6) (8 1 8) (4) (4 4 7 7 1) (6 7 6 2 6 5 4) (3 2) (2 2) (9) (4 2) (9 1 2) (5 6) (7 8) (2 4) (7) (4 5 7 6) (2 5 9) (8 6) (2 5 8) (2 3 2) (5 2) (5) (9) (7) (6) (3 7 3 7) (1 3 7 8) (6) (5) (1) (1) (4) (9) (5 7 1) (9) (5 5 2) (9) (9 9 1) (9) (5) (8 2) (5 5 4) (4 3 8 6) (7 1) (7) (5 6 1) (6) (6 5 2) (3 2) (7) (8) (4) (3 6 4) (2 1) (4 5 8) (4) (5 6 7 3) (6 8 8 9 5 7) (2) (1 8) (4 9) (3) (4 2 8 4) (7 2) (9) (7 9 5 7) (4 7 7 9) (1 6 4) (1 2 1 4) (4 7) (4) (4 7) (4 2 2) (4 8) (5 4 2 6) (6 3) (1 1 5 9 4) (8 6) (2 1 1) (6 3) (9 2 5) (8 1 2) (5 4 1 9 7) (5) (4 1) (8 2 9 8) (4) (4 6) (9 8) (9 4 4) (9 2 4) (7 8 5 2 8) (1) (4 5 5 4) (2 4) (8 8 3) (7 2) (5 6 5) (5 4) (9 8 3 1) (4 2 9 7) (1 2 6) (9 7) (6) (2) (6 8 7) (6 4) (9 3) (2 9 1) (6 3) (6) (1 8) (2 3) (3 7) (2 4) (9) (4 9 2 3) (1) (3) (2 4) (6 6) (8 7) (8 6 7 6 8 5 7) (9 6) (9 6) (5 3 2 3 6) (5) (2 8 4 7) (4 9 1) (4) (3 3 9) (9) (7 3) (5) (7 5 1) (5) (7 4) (9 2 4) (3 6) (5) (4) (2 7 3) (4 4 9 4 7) (3) (4) (1) (2) (6 5) (6) (7) (6) (4 9 2) (1 8 9 7 7) (3) (5 4 6) (7 4 7) (1 9) (4) (8 9) (2 9) (6 3) (2 7 1) (4) (1) (3 6 7) (4) (5 3 6) (8 9 1) (9 6) (1) (8 9) (5 7) (5 5) (7 9) (4 5 6) (4 9) (7 6 9) (2) (2 7) (1 2) (6) (3 4) (3 6 5 7) (1) (7) (7 6 1 4) (4) (4 5 2) (5 9 7 5) (3 5) (4) (3 9 1) (9 9 2) (3 3) (6 8) (4 8 8 7) (7 9) (4 9 2) (9 3 4) (9) (2 2) (3 7 9) (5) (7 1) (3 1) (3) (2) (5) (7 7) (1) (2) (5 4 2 5 5) (8) (5 6 9) (1 5) (1 6) (2 4 9) (7 8 2) (1) (2 3) (5 8 6) (7 3) (3 3 9) (9) (8 8 9 9 9) (9) (9 1 1 9) (3 2 2) (5) (3 3 6) (6) (7 7 9) (3 3 2 9) (9 6 9) (2) (7 4) (1 9) (6) (1) (5) (2 9) (4 6 4) (1 4) (6) (7) (7) (3 4 3 4 1) (5 9 4) (8 5 3 4 8) (8) (4 9) (8 9) (5 7 6 1) (8 9) (5 7 5) (3) (1 2 1) (6) (2) (6) (2 4) (2) (9 4) (8 2) (3) (8 2 3 7) (6 5) (8 6 8) (8) (5 7) (6) (9 9) (3 1 3 2) (3 8 7) (4) (5 2) (1) (6 6 7 1) (1 1 2) (8) (6) (2 9 8 5) (7 9) (8) (8 2 5) (2 9) (7) (2) (5 4 9) (5 6) (1 9 7 7) (4 9 5 4) (6 7 4 9) (1 8 4) (6 5) (8 3 3) (4) (2) (6 2) (1 9 1) (2) (1 8) (4) (3 3) (3) (7) (3) (3 4) (7 3 5) (5 1) (2 9 6) (6) (1 1 5 6) (2) (4 1 9 6) (6) (9) (1 8 5 4) (9) (2 3) (3) (7 7 5 7) (5) (1) (3) (8 2 7) (7 1) (1 2 7) (6 6) (7) (7) (2 8) (8 8) (9 5 9) (5 6) (4 6) (3 3 5 9) (8 6 7) (1 7) (1 9) (8 5 7) (7 2) (8 5) (6 4 2 6) (8) (2 5 6) (7 2 2 9) (9) (2 1) (1 6) (5 6 3) (1) (6) (1 8) (3 8) (5) (5 3) (7 3) (8 9) (9) (7 8) (9) (9 1) (7) (3 3 4 8) (7) (9) (2) (9) (1) (6 2) (2 9) (8 6 5) (3 1 8 2) (4 3 3 1) (5) (2 3) (6) (5 5 3 6 5) (7 5) (8 5 7) (3 1) (6) (1) (6) (3 2) (9) (4 9 3) (8) (2 7) (5 7 7) (2 3 9 5) (8 8 9) (6) (8 3) (1 4 5) (1 6 4) (2 5 8) (1) (7 5) (7) (4) (8 9 9) (5 9 9) (5) (5 3 5) (3 8 8 9) (1 1 4 6 3) (8) (8 9 6 3) (2 9) (4 3 3 1) (4 7) (9 2 6) (1 2) (2 8) (3 6 2) (7 9) (6 2) (4) (8 9 2 8) (7 4) (9 7) (3 2) (7 6) (5 6) (9) (1 3 9) (4) (4 8 4 6 3) (2 2) (3 3 1 5) (6 7 4 6 8) (9 7) (7 7) (7) (7) (3 2 7 7) (3 9 2) (2 8) (1) (6 5 5 1) (9 1 8) (6 9) (5 1 5) (7) (4 1 7 4) (9 2 7 3 2 4) (2) (4 6) (7 8 6 7) (6 5 8) (4 2) (2 3) (6) (1) (9) (8) (8 4) (9 3 7) (7 4 3 9) (1) (7 3 3) (7 6) (8 5 5) (8) (6 2) (6 3) (9 6 9 1 5 7) (7 1 1) (9 3) (6 4 5) (1) (9) (7) (1) (7 9) (5 5 9) (4 1) (6) (6 8 2 2) (6) (4 2 3) (2 2 4) (3 2) (6 1 9 2) (2) (8 9 1) (9) (1) (6) (5) (3 8) (1) (9 6 5 6) (4 5) (1 7 1 6) (5 3) (4 2 7) (8 9 3 4) (4) (2 2 9) (2 9 6) (4 3 6) (3) (2) (2) (2) (4) (6 8) (6 2) (6) (1 5 2 2 9) (4 8 5 8) (4 4 1 3) (8) (8 6 9 2 5) (7) (5 1) (6 6 8) (2) (3 9) (8 8) (7 9 6) (1 1 3) (2 5) (8 8 1) (2 4 6 2 3) (9) (8 7) (3 4 5 1 4 3) (7 7) (4 4 8) (2) (1) (9) (4) (1 5 1) (6 8 2 9) (9 6) (3 3) (1 4) (8) (4 1 1) (9) (2 6 7) (6 3 3 3 2) (5 8 3 7) (5 5 7) (7 5) (1 2 6 3) (1) (7 3) (2 6 9) (1 2 6) (5 6 2) (8) (4 7) (5 1) (9 5) (8) (5) (1) (7) (1 8) (2 1) (1) (2) (8 4) (5) (7 7 8 7) (1 7) (1) (2) (4) (3 4 4) (9 4) (6 5 8) (6 2) (9 7) (9) (9) (3) (7) (1 1) (1 7) (1 7) (6 5) (4 9 6 3) (6) (4 9 5) (4) (7 6 7) (2) (7) (5 7) (3 1) (9 4 8 3 2 9) (8) (5 2 8 3) (9) (1 5 7) (3) (4) (9 5 1 4 6 2) (6 3 6) (6 1 8 1) (5 5))
+54667
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve1
+clj꞉advent-of-clojure.day1.solution꞉> 
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve1
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ArityException) at advent-of-clojure.day1.solution/solve1$fn (form-init16158377429025327774.clj:24).
+; Wrong number of args (2) passed to: advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ArityException) at advent-of-clojure.day1.solution/solve1$fn (form-init16158377429025327774.clj:24).
+; Wrong number of args (2) passed to: advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ArityException) at advent-of-clojure.day1.solution/solve1$fn (form-init16158377429025327774.clj:24).
+; Wrong number of args (2) passed to: advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve1
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/extract-numbers-list$fn (form-init16158377429025327774.clj:9).
+; class java.lang.Character cannot be cast to class java.lang.CharSequence (java.lang.Character and java.lang.CharSequence are in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (ClassCastException) at advent-of-clojure.day1.solution/extract-numbers-list$fn (form-init16158377429025327774.clj:9).
+; class java.lang.Character cannot be cast to class java.lang.CharSequence (java.lang.Character and java.lang.CharSequence are in module java.base of loader 'bootstrap')
+clj꞉advent-of-clojure.day1.solution꞉> 
+"7"
+clj꞉advent-of-clojure.day1.solution꞉> 
+("7")
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/extract-numbers-list
+clj꞉advent-of-clojure.day1.solution꞉> 
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve1
+clj꞉advent-of-clojure.day1.solution꞉> 
+142
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve2
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (NumberFormatException) at advent-of-clojure.day1.solution/solve2$fn (form-init16158377429025327774.clj:29).
+; Invalid number: 1f
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Syntax error compiling at (solution.clj:31:43).
+; Unable to resolve symbol: to-number in this context
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (NumberFormatException) at advent-of-clojure.day1.solution/solve2$fn (form-init16158377429025327774.clj:29).
+; Invalid number: 1f
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/to-number
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/to-number
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (NumberFormatException) at advent-of-clojure.day1.solution/solve2$fn (form-init16158377429025327774.clj:29).
+; Invalid number: 1f
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/to-number
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (NumberFormatException) at advent-of-clojure.day1.solution/solve2$fn (form-init16158377429025327774.clj:29).
+; Invalid number: 1f
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve2
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/to-number
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error at advent-of-clojure.day1.solution/solve2$fn (form-init16158377429025327774.clj:31).
+; EOF while reading
+clj꞉advent-of-clojure.day1.solution꞉> 
+#'advent-of-clojure.day1.solution/solve2
+clj꞉advent-of-clojure.day1.solution꞉> 
+; Execution error (NumberFormatException) at advent-of-clojure.day1.solution/solve2$fn (form-init16158377429025327774.clj:31).
+; Invalid number: 1f
+clj꞉advent-of-clojure.day1.solution꞉> 
